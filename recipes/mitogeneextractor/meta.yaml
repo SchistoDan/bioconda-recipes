@@ -20,8 +20,8 @@ build:
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib('c') }}
     - make
-  # No host libraries: TCLAP is header-only and vendored in the source tree.
   run:
     - exonerate 2.4.0
 
