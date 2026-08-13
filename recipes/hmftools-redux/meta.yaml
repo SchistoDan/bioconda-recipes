@@ -1,6 +1,6 @@
-{% set version = "2.0.1" %}
+{% set version = "2.0.4" %}
 {% set beta_suffix = "" %}
-{% set sha256 = "ee23f8cccdae1424a6186188db1295a51fd301d2fb88c399255ec11c12b5022b" %}
+{% set sha256 = "0906c87c07b7da36548155327c392c25962a45d1e556c3024c611e6b16237f07" %}
 
 package:
   name: hmftools-redux
